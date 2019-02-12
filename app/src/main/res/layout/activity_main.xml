@@ -7,8 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#99000000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tvTest"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
